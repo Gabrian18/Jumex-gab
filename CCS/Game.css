@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#container {
+  position: relative;
+}
+
+.custom-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+#btnJugar {
+  display: none;
+}
+
+#btnJugar:checked + .custom-button {
+  display: none;
+}
+
+#btnJugar:checked ~ #imagenContainer {
+  display: block;
+}
+
+#imagenContainer {
+  display: none;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imagenJuego {
+  max-width: 100%;
+  height: auto;
+}
+
+#imagenContainer p {
+  font-size: 1.5em;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+
+
+
+/* Animacion zoom  brillo*/
+#container img {
+  animation: zoomAnimation 0.2s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

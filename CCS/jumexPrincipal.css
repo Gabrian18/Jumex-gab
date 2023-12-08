@@ -1,0 +1,170 @@
+#Layer3 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer3:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */ 
+}
+
+#Layer5 img {
+  animation: zoomAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+
+button{
+    border:0;
+    background-image: linear-gradient(
+        150deg,
+        #0063D2,
+        #0040D2,
+        #0063D2
+    );
+    border-radius: 8px;
+color:#fff;
+display: flex;
+font-size: 18px;
+padding: 4px;
+cursor: pointer;
+transition: .3s;
+}
+
+button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+button:hover span {
+    background: none;
+}
+button:active {
+    transform: scale(0,9)
+}
+
+
+
+
+#Layer9 {
+  border-radius: 20px; /* ajustar esquinas */
+  overflow: hidden; /* Asegura que las esquinas redondeadas se muestren correctamente */
+}
+
+#Layer10 {
+  border-radius: 20px; /* ajustar esquinas */
+  overflow: hidden; /* Asegura que las esquinas redondeadas se muestren correctamente */
+}
+
+#Layer11 {
+  border-radius: 20px; /* ajustar esquinas */
+  overflow: hidden; /* Asegura que las esquinas redondeadas se muestren correctamente */
+}
+#Layer12 {
+  border-radius: 20px; /* ajustar esquinas */
+  overflow: hidden; /* Asegura que las esquinas redondeadas se muestren correctamente */
+}
+#Layer13 {
+  border-radius: 20px; /* ajustar esquinas */
+  overflow: hidden; /* Asegura que las esquinas redondeadas se muestren correctamente */
+}
+
+#Layer9 img {
+  transition: transform 0.3s;
+}
+
+#Layer9:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+#Layer10 img {
+  transition: transform 0.3s;
+}
+
+#Layer10:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+#Layer11 img {
+  transition: transform 0.3s;
+}
+
+#Layer11:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+#Layer12 img {
+  transition: transform 0.3s;
+}
+
+#Layer12:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+#Layer13 img {
+  transition: transform 0.3s;
+}
+
+#Layer13:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+
+
+
+
+
+
+#menu {
+     margin: 0;
+     width: auto;
+     background-color: #565656;
+     font-size: 16px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-weight: bold;
+     text-align: left;
+     padding: 8px;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -o-border-radius: 8px;
+}
+
+#Layer28 ul {
+     margin: 0;
+     padding: 8px 0;
+     list-style: none;
+     height: auto;
+}
+
+#Layer28 li {
+     display: inline;
+     padding: 8px;
+}
+
+#Layer28 a {
+     color: #FFF;
+     padding: 10px;
+     text-decoration: none;
+}
+
+#Layer28 a:hover {
+     background-color: #0066FF;
+     color: #FFF;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -o-border-radius: 20px;
+}
+
+#Layer28 li .active {
+     background-color: ##0066FF;
+     color: #FFF;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -o-border-radius: 20px;
+}

@@ -1,0 +1,204 @@
+#Layer4 {
+  position: relative;
+}
+
+#Layer4 img {
+ width: 962;
+ height: auto;
+ transition: transform 0.3s ease-in-out; /* Agrega una transición suave al atributo transform */
+}
+
+#Layer4:hover img {
+  transform: scale(1.1); /* Ajusta el valor según tus preferencias para el zoom */
+}
+
+
+
+
+/* Efecto espejo hojas derechas*/
+#Layer6 img {
+  transform: scaleX(-1);
+}
+
+/* Animacion zoom hojas derechas*/
+#Layer6 img {
+  animation: zoomAnimation 2s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+/* Animacion zoom hojas izquerda*/
+#Layer5 img {
+  animation: zoomAnimation 2s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+/* Animacion zoom brillo izquerda*/
+#Layer7 img {
+  animation: zoomAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+/* Animacion zoom  brillo derecha*/
+#Layer10 img {
+  animation: zoomAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+
+
+#Layer8 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer8:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer9 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer9:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer11 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer11:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer12 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer12:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+
+/* Animacion zoom  brillo*/
+#Layer14 img {
+  animation: zoomAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+/* Animacion zoom  brillo*/
+#Layer15 img {
+  animation: zoomAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+/* Animacion zoom  brillo*/
+#Layer16 img {
+  animation: zoomAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes zoomAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+
+#Layer19 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer19:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer18 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer18:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer20 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer20:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer22 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer22:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer23 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer23:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer24 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer24:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+

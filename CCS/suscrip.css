@@ -1,0 +1,131 @@
+/* CSS Document */
+#Layer4 img {
+  transition: transform 0.5s ease-in-out; /* Agrega una transición suave a la propiedad de transformación */
+}
+
+#Layer4:hover img {
+  transform: scale(1.1); /* Aplica un zoom de 120% cuando el mouse está sobre el div */
+}
+
+#Layer5 {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Color de fondo, puedes cambiarlo */
+    border-radius: 30px; /* Valor de redondeo, ajusta según tus preferencias */
+}
+#Layer8 {
+    width: 391px;
+    height: 764px;
+    background-color: #211d70; /* Color de fondo, puedes cambiarlo */
+    border-radius: 30px; /* Valor de redondeo, ajusta según tus preferencias */
+}
+#Layer10 {
+    width: 392px;
+    height: 766px;
+    background-color: #211d70; /* Color de fondo, puedes cambiarlo */
+    border-radius: 30px; /* Valor de redondeo, ajusta según tus preferencias */
+}
+#Layer11 {
+    width: 390px;
+    height: 760px;
+    background-color: #211d70; /* Color de fondo, puedes cambiarlo */
+    border-radius: 30px; /* Valor de redondeo, ajusta según tus preferencias */
+}
+
+#Layer19 {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Color de fondo, puedes cambiarlo */
+    border-radius: 30px; /* Valor de redondeo, ajusta según tus preferencias */
+}
+#Layer20 {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Color de fondo, puedes cambiarlo */
+    border-radius: 30px; /* Valor de redondeo, ajusta según tus preferencias */
+}
+#Layer21 {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Color de fondo, puedes cambiarlo */
+    border-radius: 30px; /* Valor de redondeo, ajusta según tus preferencias */
+}
+
+
+#Layer19 {
+    width: 200px;
+    height: 31px;
+    background-color: #FFCC33; /* Cambia el color de fondo según tus preferencias */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+#Layer19:hover {
+    transform: scale(1.1); /* Puedes ajustar el factor de escala según tus preferencias */
+}
+
+#Layer20 {
+    width: 200px;
+    height: 32px;
+    background-color: #F0BD21; /* Cambia el color de fondo según tus preferencias */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+#Layer20:hover {
+    transform: scale(1.1); /* Puedes ajustar el factor de escala según tus preferencias */
+}
+
+#Layer21 {
+    width: 200px;
+    height: 31px;
+    background-color: #FFCC33; /* Cambia el color de fondo según tus preferencias */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+#Layer21:hover {
+    transform: scale(1.1); /* Puedes ajustar el factor de escala según tus preferencias */
+}
+
+
+#Layer5 {
+    width: 742px;
+    height: 94px;
+    background-color: #3498db; /* Color de fondo inicial, puedes cambiarlo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    animation: colorAnimation 5s infinite alternate; /* Ajusta la duración y otros valores según tus preferencias */
+    backdrop-filter: blur(10px); /* Ajusta el valor de desenfoque según tus preferencias */
+}
+
+@keyframes colorAnimation {
+    0% {
+        background-color: #3498db; /* Color inicial */
+    }
+    50% {
+        background-color: #e74c3c; /* Color intermedio */
+    }
+    100% {
+        background-color: #2ecc71; /* Color final */
+    }
+}
